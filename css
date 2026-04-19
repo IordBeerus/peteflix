@@ -1,0 +1,8 @@
+body { background-color: #111; color: white; font-family: Arial, sans-serif; }
+.movie-grid { display: flex; flex-wrap: wrap; padding: 20px; }
+.movie-card { width: 200px; margin: 10px; position: relative; cursor: pointer; transition: 0.3s; }
+.movie-card:hover { transform: scale(1.1); }
+.movie-card img { width: 100%; border-radius: 5px; }
+.overlay { position: absolute; bottom: 0; background: rgba(0,0,0,0.7); width: 100%; text-align: center; opacity: 0; transition: 0.3s; }
+.movie-card:hover .overlay { opacity: 1; }
+.watch-btn { display: inline-block; background: #e50914; color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; margin: 5px; }
